@@ -2,14 +2,13 @@
 #include <stdio.h>
 void main()
 {
-  int n,i,c=1,sum;
+  int n,i,sum=1;
   printf("enter value for n:");
   scanf("%d",&n);
-  for(i=0;i<5;i++)
+  for(i=1;i<=5;i++)
      {
-      sum=c*n;
+      sum=i*n;
       printf("%d\t",sum);
-      ++c;
-     }
+       }
 }
   
