@@ -4,6 +4,7 @@ void main()
   int a[100000],n,i,j,t;
   printf("enter value for n:");
   scanf("%d",&n);
+  printf("Enter the value for array : ");
   for(i=0;i<n;i++)
   scanf("%d",&a[i]);
   for(i=0;i<n-1;i++)
@@ -16,6 +17,6 @@ void main()
      a[j]=t;
     }
 }
-     printf("%d",a[i]);
+     printf("The maximum value you enter is %d",a[i]);
 }
   
