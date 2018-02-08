@@ -5,7 +5,7 @@ void main()
     printf("Enter two numbers: ");
     scanf("%d %d", &a,&b);
     printf("Prime numbers between %d and %d are: ",a,b);
-    for(j=a;j<b;j++)
+    for(j=a+1;j<b;j++)
     {
         c=0;
         for(i = 2;i<=j/2;++i)
