@@ -17,6 +17,6 @@ void main()
      a[j]=t;
     }
 }
-     printf("The maximum value you enter is %d",a[i]);
+     printf("The minimum value you enter is %d",a[i]);
 }
   
