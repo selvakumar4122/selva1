@@ -6,7 +6,7 @@ void main()
 	scanf("%d",&mins);
 	if(mins<60)
 	{
-	    printf("%d %d",hour,mins);
+	    printf("%d Hours %d minuits",hour,mins);
 	}
 	else 
 	{
