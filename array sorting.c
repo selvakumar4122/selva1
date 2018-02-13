@@ -5,7 +5,7 @@ void main()
   printf("enter value for l:");
   scanf("%d",&l);
   printf("Enter the value for array : ");
-  for(i=0;i<n;i++)
+  for(i=0;i<l;i++)
   scanf("%d",&a[i]);
   printf("The center element in array is:");
   for(i=0;i<l;i++)
